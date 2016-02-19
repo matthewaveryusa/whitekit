@@ -1,8 +1,8 @@
 Whitekit
 ========
-write to dmesg a report on changes to system calls typically done by rootkits:
+write to dmesg a report on changes to system calls typically done by rootkits. Sample output:
 
-               [15784.484645] sys_call_table:     0xffffffff81801460
+    [15784.484645] sys_call_table:     0xffffffff81801460
     [15784.484652] ia32_sys_call_table:0xffffffff8180d6c0
     [15784.484655] proc_iterate:       0xffffffff81252aa0
     [15784.484658] root_iterate:       0xffffffff812694b0
